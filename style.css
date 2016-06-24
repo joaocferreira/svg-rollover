@@ -1,0 +1,43 @@
+/* Styles go here */
+svg {
+  width: 500px;
+  height: 292px;
+}
+.segment--red {
+  fill: #EF3B39;
+}
+.segment--red:hover {
+  fill: #ba0f11;
+}
+.segment--green {
+  fill: #CCDB2A;
+}
+.segment--green:hover {
+  fill: #aab720;
+}
+.segment--gold {
+  fill: #FFCC67;
+}
+.segment--gold:hover {
+  fill: #e4a739;
+}
+.segment--blue {
+  fill: #48C2C5;
+}
+.blue--hover {
+   fill: #3c9497;
+}
+.blue--hover text {
+   font-family: Arial;
+   font-size:8px;
+   text-anchor:end;
+}
+.segment--blue--pieces:hover .segment--blue{
+  fill: #3c9497;
+}
+.segment--blue--pieces .blue--hover {
+  display:none;
+}
+.segment--blue--pieces:hover .blue--hover {
+  display:inherit;
+}
